@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity
         itemsAdapater = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,items);
         //casting this because findViewById orginally takes an int but you need it to be a ListView
         todolist = (ListView) findViewById(R.id.todoList);
-        //connecting the ListView to the adapter
+        //connecting the ListView to the adapterr
         todolist.setAdapter(itemsAdapater);
 
 
@@ -141,7 +141,8 @@ public class MainActivity extends AppCompatActivity
 
     private void writeItems()
     {
-        try {
+        try
+        {
             FileUtils.writeLines(getDataFile(), items);
         } catch (IOException e) {
             Log.e("MainActivity", "Error writing file", e);

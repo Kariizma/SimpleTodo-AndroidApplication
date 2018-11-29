@@ -4,7 +4,7 @@
 
 Submitted by: Karan Vadhan
 
-Time spent: 4-6 hours spent in total
+Time spent: 6 hours spent in total
 
 ## User Stories
 
@@ -48,7 +48,6 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 **Answer:** [The ArrayAdapter is used as a converter between the ArrayList of an object to the to the View. In the context of the app, The converter (itemsAdapter) is used to take the objects located within the ArrayList(items) and populate the ListView with it, this is the reason why the adapter is so important. The purpose of the ‘convertView’ in the ‘getView’ method of the ArrayAdapter is for recycling old objects (old views) that are not being displayed, with new objects that are placed into old objects memory to save memory.].
 
 ## Notes
-
 Describe any challenges encountered while building the app.
 
 ## License
