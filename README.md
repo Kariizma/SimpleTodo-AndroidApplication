@@ -41,11 +41,11 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** [While using Android studio to create the Simple Todo application I was amazed by how simple it was to create a beautiful graphical user interface just by dragging and dropping items from the palette onto the layout. I got excited using IntelliJ IDE because of how well the code completion and organization work. The Only other Java IDE I have used was Netbeans with Swing GUI and it is inferior compared to Android Studio.].
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** [The ArrayAdapter is used as a converter between the ArrayList of an object to the to the View. In the context of the app, The converter (itemsAdapter) is used to take the objects located within the ArrayList(items) and populate the ListView with it, this is the reason why the adapter is so important. The purpose of the ‘convertView’ in the ‘getView’ method of the ArrayAdapter is for recycling old objects (old views) that are not being displayed, with new objects that are placed into old objects memory to save memory.].
 
 ## Notes
 
