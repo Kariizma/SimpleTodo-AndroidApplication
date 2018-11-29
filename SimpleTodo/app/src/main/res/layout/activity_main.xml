@@ -18,20 +18,25 @@
 
     <Button
         android:id="@+id/addButton"
-        android:layout_width="97dp"
-        android:layout_height="73dp"
-        android:text="Add"
+        android:layout_width="94dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
         android:onClick="onAddItem"
+        android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="285dp"
+        android:layout_width="291dp"
         android:layout_height="69dp"
+        android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="add new to-do here"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/addButton"
         app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
